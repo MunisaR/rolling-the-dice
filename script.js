@@ -11,4 +11,13 @@ score0El.textContent = 0
 score1El.textContent = 0
 
 //Rolling dice functionality
+btnHold.addEventListener('click', function(){
+    //1. Generate a random dice roll
+    const
 
+
+    //2. Display dice
+
+
+    //3. Check for rolled 1: if true, switch to the next player
+})
