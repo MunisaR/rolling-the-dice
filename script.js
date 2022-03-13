@@ -9,11 +9,11 @@ const btnHold = document.querySelector('.btn--hold')
 //Starting conditions
 score0El.textContent = 0
 score1El.textContent = 0
+diceEl.classList.add('hidden')
 
 //Rolling dice functionality
 btnHold.addEventListener('click', function(){
-    //1. Generate a random dice roll
-    const
+    //1. Generate a random dice rol 
 
 
     //2. Display dice
