@@ -15,10 +15,12 @@ diceEl.classList.add('hidden')
 //Rolling dice functionality
 btnHold.addEventListener('click', function(){
     //1. Generate a random dice rol 
-
-
+    const dice = Math.trunc(Math.random() * 6) + 1
+    console.log(dice)
 
     //2. Display dice
+    diceEl.classList.remove('hidden')
+    diceEl.src = 'dice-${dice}.png'
 
 
     //3. Check for rolled 1: if true, switch to the next player
