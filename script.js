@@ -13,7 +13,7 @@ score1El.textContent = 0
 diceEl.classList.add('hidden')
 
 //Rolling dice functionality
-btnHold.addEventListener('click', function(){
+btnRoll.addEventListener('click', function(){
     //1. Generate a random dice rol 
     const dice = Math.trunc(Math.random() * 6) + 1
     console.log(dice)
